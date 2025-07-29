@@ -37,4 +37,6 @@ while True:
 # Cleanup
 cap.release()
 cv2.destroyAllWindows()
+# Save the last frame if needed
+# cv2.imwrite('last_frame.jpg', frame_)
 
